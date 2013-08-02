@@ -24,7 +24,7 @@ Build
 
 ```
 . build/envsetup.sh
-breakfast cm_(d2tmo)-userdebug   # only if building for d2tmo
+breakfast pa_(d2tmo)-userdebug   # only if building for d2tmo
 ./glxytools/cm-10.1-d2tmo.sh   # apply our patches (done on topic branch 'auto')
 mka bacon
 ```
