@@ -2,7 +2,7 @@
 
 
 # gralloc (display-caf)
-CHANGES+=(46166)
+#CHANGES+=(46166)
 
 # DashPlayer: make jb_mr2 compatible
 CHANGES+=(46086)
