@@ -11,6 +11,10 @@ CHANGES+=(47200)
 # Camera: Bring Samsung camera fixes and features to 4.3
 CHANGES+=(46287)
 
+#d2-common:  Move Camera overlay settings to Gallery2
+# -Adjust settings for 10.2 camera
+CHANGES+=(46772)
+
 # Do the cherry-picking
 ./build/tools/repopick.py -b ${CHANGES[@]}
 
