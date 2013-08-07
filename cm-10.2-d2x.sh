@@ -11,9 +11,6 @@ CHANGES+=(47200)
 # Camera: Bring Samsung camera fixes and features to 4.3
 CHANGES+=(46287)
 
-# libstagefright: Add legacy LPAPlayer
-CHANGES+=(46451)
-
 # Do the cherry-picking
 ./build/tools/repopick.py -b ${CHANGES[@]}
 
