@@ -25,6 +25,7 @@ Build
 ```
 . build/envsetup.sh
 breakfast pa_(d2tmo)-userdebug   # only if building for d2tmo
-./glxytools/cm-10.1-d2tmo.sh   # apply our patches (done on topic branch 'auto')
+chmod +x /glxytools/cm-10.2-d2x.sh
+./glxytools/cm-10.2-d2x.sh   # apply our patches (done on topic branch 'auto')
 mka bacon
 ```
