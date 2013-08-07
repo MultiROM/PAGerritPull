@@ -1,9 +1,6 @@
 #!/bin/bash
 
 
-# DashPlayer: make jb_mr2 compatible
-CHANGES+=(46086)
-
 # libgralloc:  Change ionFlags for GRALLOC_USAGE_PRIVATE_MM_HEAP case
 #   - fixes secure memory crash in OMX
 CHANGES+=(46521)
