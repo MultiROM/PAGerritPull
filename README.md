@@ -19,4 +19,5 @@ Build
 ```
 1) chmod +x /pagerrit/jb43.sh
 2) ./pagerrit/jb43.sh  # apply our patches (done on topic branch 'auto')
+# if your brave enough, include this line in the rom-build.sh otherwise don't try it
 ```
