@@ -1,7 +1,22 @@
 PA 3.9x Build Instructions
 =======================
 ```
-<filler>
+    repopick.py is a utility to simplify the process of cherry picking
+    patches from Paranoid Android's Gerrit.
+
+    Given a list of change numbers, repopick will cd into the project path
+    and cherry pick the latest patch available.
+
+    With the --start-branch argument, the user can specify that a branch
+    should be created before cherry picking. This is useful for
+    cherry-picking many patches into a common branch which can be easily
+    abandoned later (good for testing other's changes.)
+
+    The --abandon-first argument, when used in conjuction with the
+    --start-branch option, will cause repopick to abandon the specified
+    branch in all repos first before performing any cherry picks.
+    
+    Credit for tool: CyanogenMod 
 ```
 
 Modify your `.repo/local_manifest.xml` as follows:
