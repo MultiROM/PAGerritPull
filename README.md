@@ -1,6 +1,8 @@
 PA 3.9x Build Instructions
 =======================
 ```
+    This repo is used as a test environment for Gerrit commits submitted to PA Gerrit repos
+
     repopick.py is a utility to simplify the process of cherry picking
     patches from Paranoid Android's Gerrit.
 
