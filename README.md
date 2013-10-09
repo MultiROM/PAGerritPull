@@ -26,7 +26,7 @@ Modify your `.repo/local_manifest.xml` as follows:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Ayysir/PAGerritPull" path="pagerrit" remote="github" revision="jb43" />
+  <project name="ParanoidAndroid/PAGerritPull" path="pagerrit" remote="github" revision="jb43" />
 </manifest>
 ```
 
