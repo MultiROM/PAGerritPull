@@ -10,7 +10,8 @@ CHANGES+=(14)
 # Settings: Add option to turn off CRT Effect [2/2]
 CHANGES+=(15)
 
-
+# Quick Settings: Swipe to switch
+CHANGES+=(43)
 
 # Do the cherry-picking
 ./build/tools/repopick.py -b ${CHANGES[@]}
